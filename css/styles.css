@@ -24,7 +24,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('../img/home.webp') no-repeat center fixed;
+  background: url('../img/fondohome.jpg') no-repeat center fixed;
   background-size: cover;
   padding: 100px 0;
   position: relative;
