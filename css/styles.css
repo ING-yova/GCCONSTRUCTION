@@ -126,6 +126,14 @@ html, body {
   color: #fff; /* Cambia el color del ícono al pasar el mouse */
 }
 
+[data-aos] {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+[data-aos="fade-right"], [data-aos="fade-left"] {
+  transform: translateX(0) !important;
+}
 
  .btn-bt{
 position: relative;
