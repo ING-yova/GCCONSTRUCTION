@@ -79,6 +79,7 @@ html, body {
   z-index: 800;
   position: fixed; /* Esto hace que el z-index funcione bien */
   width: 100%;
+  background-color: #333333c7;
 }
 
 .navbar-collapse {
@@ -125,6 +126,57 @@ html, body {
   color: #fff; /* Cambia el color del ícono al pasar el mouse */
 }
 
+
+ .btn-bt{
+position: relative;
+padding: 1.5rem 3rem;
+font-size: calc(1.475rem + 1vw);
+line-height: 1.2;
+font-weight: 600;
+color: #ffffff;
+background: none;
+border: none;
+cursor: pointer;
+overflow: hidden;
+transition: all 0.4s ease;
+min-width: 200px;
+text-decoration: none;
+z-index: 1;
+}
+
+
+.neon-pulse {
+/* background: #000; */
+border: 2px solid #0ff;
+box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+overflow: visible;
+}
+
+.neon-pulse::before,
+.neon-pulse::after {
+content: "";
+position: absolute;
+inset: -4px;
+border: 2px solid #0ff;
+border-radius: inherit;
+animation: pulseOut 2s ease-out infinite;
+opacity: 0;
+}
+
+.neon-pulse::after {
+animation-delay: 1s;
+}
+
+@keyframes pulseOut {
+0% {
+  transform: scale(1);
+  opacity: 1;
+}
+100% {
+  transform: scale(1.5);
+  opacity: 0;
+}
+}
 
 
 
@@ -192,6 +244,7 @@ line-height: 1.6; /* Para mejorar la legibilidad */
   .pintura-container {
     flex-direction: column; 
     align-items: center; 
+    justify-content: center;
     height: auto;
     margin-bottom: 15px;
     
