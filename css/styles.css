@@ -147,7 +147,7 @@ z-index: 1;
 
 .neon-pulse {
 /* background: #000; */
-border: 2px solid #0ff;
+border: 2px solid #fac630;
 box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
 overflow: visible;
 }
@@ -157,7 +157,7 @@ overflow: visible;
 content: "";
 position: absolute;
 inset: -4px;
-border: 2px solid #0ff;
+border: 2px solid #fac630;
 border-radius: inherit;
 animation: pulseOut 2s ease-out infinite;
 opacity: 0;
